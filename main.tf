@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "example" {
+resource "aws_s3_bucket" "new-bucket" {
    bucket = "wissens3bucket"
    acl = "private"
    versioning {
